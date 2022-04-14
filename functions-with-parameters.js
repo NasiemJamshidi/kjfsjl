@@ -9,7 +9,8 @@ function add(a, b) {
 }
 
 const result = add(1, 4);
-console.log(result);
+const uitkomst = add (2, 5);
+console.log(result, uitkomst);
 
 /* Opdracht 1 */
 // Schrijf een functie genaamd greeter, die een naam verwacht en een groet teruggeeft
@@ -17,7 +18,14 @@ console.log(result);
 // greeter("Jan") geeft "Hoi Jan!"
 // greeter("Kees") geeft "Hoi Kees!"
 
+function greeter(jan, kees) {
+  return jan + kees;
+}
+const area =greeter('Hoi Jan ','Hoi Kees');
+const koko = greeter('welcome ','hoe gaat het');
 
+
+console.log(koko, area);
 
 /* Opdracht 2 */
 // Schrijf een functie genaamd minutesToSeconds, die een hoeveelheid minuten verwacht (als een getal) en teruggeeft hoeveel seconden dat zijn.
@@ -25,6 +33,15 @@ console.log(result);
 // minutesToSeconds(1) geeft 60
 // minutesToSeconds(3) geeft 180
 // minutesToSeconds(23) geeft 1380
+function minutesToSeconds( minute ,second ) {
+  return minute * second;
+}
+const mimi = minutesToSeconds(1, 60);
+const timo= minutesToSeconds(3, 60);
+const kilo= minutesToSeconds(23, 60);
+
+console.log(mimi, timo,kilo);
+
 
 
 
@@ -34,7 +51,13 @@ console.log(result);
 // ---- Verwachte uitkomsten:
 // merge("abra", "cadabra") geeft "abracadabra"
 // merge("zoet", "sappig") geeft "zoetsappig"
+function marge(abra, zoet){
+return abra + zoet;
+}
+const kaka= marge('abra', 'cadabra');
 
+const kimbo= marge('zoet', 'sappig')
+console.log(kaka, kimbo);
 
 
 
@@ -43,6 +66,15 @@ console.log(result);
 // ---- Verwachte uitkomsten:
 // calculateDogYears(6) geeft "Jouw hond is 42 jaar oud in mensenjaren."
 // calculateDogYears(2) geeft "Jouw hond is 14 jaar oud in mensenjaren."
+function calculateDogYears(manenleeftijd, hondenleeftijd) {
+  return manenleeftijd * hondenleeftijd;
+}
+  const nano = calculateDogYears('6', '7');
+  const mano = calculateDogYears('2', '7');
+ const samen = 'Jouw hond is ' + nano + ' jaar oud';
+ const lamen = 'Jouw hond is ' + mano + ' jaar oud';
+
+console.log(samen,lamen);
 
 
 

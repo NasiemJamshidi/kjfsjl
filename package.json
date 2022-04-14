@@ -1,0 +1,19 @@
+{
+  "name": "frontend-javascript-first-functions",
+  "version": "1.0.0",
+  "description": "Deze opdracht bestaat uit meerdere opdrachtjes om met eenvoudige functies te kunnen oefenen. Om de opdracht te maken kun je de opdracht clonen of downloaden naar jouw eigen computer. De uitwerkingen staan op de branch _uitwerkingen_.",
+  "main": "functions-with-parameters.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hogeschoolnovi/frontend-javascript-first-functions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hogeschoolnovi/frontend-javascript-first-functions/issues"
+  },
+  "homepage": "https://github.com/hogeschoolnovi/frontend-javascript-first-functions#readme"
+}
